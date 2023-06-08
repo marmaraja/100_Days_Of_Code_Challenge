@@ -1,17 +1,100 @@
 #hero {
-    height: 800px;
-    background-image: url("/100_Days_Of_Code_Challenge/04_Landing_Page_Project/image/ocean2.jpg");
+    height: 700px;
+    background-image:url("/100_Days_Of_Code_Challenge/04_Landing_Page_Project/images/ocean1.jpg");
     background-position: center;
     background-size: cover;
 }
 
 #hero-content {
     width: 900px;
-    background-color: rgba(51, 47, 47, 0.8);
+    background-color: rgba(51, 47, 47, 0.5);
     box-shadow: 3px 5px 8px darkgray;
     border-radius: 8px;
     text-align: center;
     padding: 50px 0;
     margin: 0 auto;
+    position: relative;
+    top: 200px;
 }
 
+#hero-content h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: "Quicksand";
+    letter-spacing: 5px;
+    margin: 0;
+}
+
+#hero-content p {
+    color: white;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 45px;
+}
+
+#hero-content a {
+    text-decoration: none;
+    background-color: rgb(240, 201, 31);
+    padding: 15px 25px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 2px 4px 8px rgb(39, 38, 38);
+}
+
+#hero-content a:hover {
+    background-color: rgb(235, 231, 33);
+}
+
+#highlights {
+    padding: 25px;
+    background: linear-gradient(180deg, rgba(277, 255, 252, 0.5), rgba(231, 252, 251, 0.7));
+}
+#highlights h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 45px;
+    letter-spacing: 5px;
+    color: rgb(56, 54, 54);
+}
+
+#destinations {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.destination {
+    margin: 0 20px;
+    text-transform: uppercase;
+}
+
+.destination p {
+    text-align: center;
+    font-size: 20px;
+    color: rgb(124, 123, 123);
+    margin: 20px 0;
+}
+
+.destination img {
+    height: 220px;
+    width: 100%;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.destination img:hover {
+    scale: 105%;
+    transition: 0.3s;
+    opacity: 0.8;
+}
+
+.destination strong {
+    color:darkcyan;
+}
