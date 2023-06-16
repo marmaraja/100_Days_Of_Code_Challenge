@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background-color: rgb(236, 252, 253);
+    background-color: rgb(221, 215, 221);
   }
   
   h1 {
@@ -11,7 +11,7 @@ body {
   form {
     width: 40rem;
     margin: auto;
-    background-color: rgb(246, 250, 255);
+    background-color: rgb(233, 234, 236);
     padding: 1rem;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
     border-radius: 6px;
