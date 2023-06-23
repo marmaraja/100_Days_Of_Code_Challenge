@@ -38,3 +38,9 @@ firstH1Element.parentElement.removeChild(firstH1Element); // for older browsers
 // MOVE ELEMENTS
 
 firstParagraph.parentElement.append(firstParagraph);
+
+//inerrHTML
+
+console.log(firstParagraph.innerHTML);
+
+firstParagraph.innerHTML = 'This is <strong> important! </strong>';
